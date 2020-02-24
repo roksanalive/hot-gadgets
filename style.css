@@ -1,0 +1,140 @@
+.container{
+    margin-bottom: 60px;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+    background-color: white;
+
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner-section {
+    background-image: url(images/dooted-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 12%;
+}
+
+.carousel-item{   
+    background-image: url(images/product-text.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 7%;
+    padding-bottom: 100px;
+}
+
+.carousel-indicators li {
+    background-color: rgb(160, 160, 160);
+    height: 8px;
+    width: 12px;
+    border-radius: 6px;
+    border: none;
+}
+
+.carousel-indicators .active {
+    width: 30px;
+    background-image: linear-gradient(to right, #FF9C35, #FFD019);
+}
+
+.col-md-6 p{
+    padding-right: 60px;
+}
+
+
+.buy-now{
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.card-deck{
+    padding-top: 20px;
+}
+
+.card{
+    border: none;
+    box-shadow: 0px 5px 20px rgba(109, 109, 109, 0.15);
+    border-radius: 10px;
+}
+
+.card img{
+    padding-top: 30px;
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto;   
+}
+.product-cat-title a {
+    color: #FF9D00;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card-footer{
+    background-color: white;
+    border-top:none;
+    padding-bottom: 20px;
+}
+
+
+span.color-bar{
+    display: block;  
+    background-image: linear-gradient(to left, #FF9C35, #FFD019);
+    height: 6px;
+    width: 120px;
+    border-radius: 15px;
+    margin: 0 auto;  
+}
+
+.cat-title{
+    padding-bottom: 60px;
+}
+
+.single-cat {
+    text-align: center;
+    border: none;
+    box-shadow: 0px 5px 20px rgba(109, 109, 109, 0.20);
+    border-radius: 10px;
+}
+
+.orange-bg{
+    background-image: linear-gradient(to left, #FF9C35, #FFD019);
+
+}
+
+#subscribe{
+    height: 300px;
+    text-align: center;
+}
+
+#subscribe h6{
+    color: #ffffff;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 30px;
+    color: gray;
+}
